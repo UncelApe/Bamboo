@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AuthenFragment">
+
+    <ImageView
+
+        android:src="@drawable/wallpaper"
+        android:scaleType="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+   <LinearLayout
+       android:padding="30dp"
+       android:background="#80FFFFFF"
+       android:layout_margin="50dp"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <!--Logo-->
+       <ImageView
+           android:layout_gravity="center_horizontal"
+           android:src="@drawable/logo"
+           android:layout_width="150dp"
+           android:layout_height="wrap_content" />
+       <!--App Name-->
+       <TextView
+           android:layout_marginTop="10dp"
+           android:textColor="#07B60E"
+           android:textStyle="bold"
+           android:textSize="24sp"
+           android:layout_gravity="center_horizontal"
+           android:text="BamBoo"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <!--User-->
+       <EditText
+           android:inputType="text"
+           android:hint="User :"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <!--Password-->
+       <EditText
+           android:inputType="textPassword"
+           android:hint="Password:"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <!--Login-->
+       <Button
+           android:text="Login"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <!--Register-->
+       <TextView
+           android:textColor="@color/colorAccent"
+           android:layout_gravity="center_horizontal"
+           android:text="New Reg"
+           android:textStyle="italic"
+           android:layout_marginTop="8dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+
+   </LinearLayout>
+
+</FrameLayout>
